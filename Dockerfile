@@ -4,6 +4,7 @@ ENV pass endokai
 ENV ssrport 8080
 ENV kcpport 1000
 ENV obfs  tls1.2_ticket_auth
+ENV method  aes-128-ctr
 ENV protocol auth_aes128_md5
 ADD https://github.com/shadowsocksr/shadowsocksr/archive/manyuser.zip /root/manyuser.zip
 ADD https://github.com/xtaci/kcptun/releases/download/v20170525/kcptun-linux-amd64-20170525.tar.gz /root/kcptun.tar.gz
