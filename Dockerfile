@@ -18,4 +18,4 @@ RUN set -ex \
    && cp /root/user-config.json /root/shadowsocksr-manyuser/shadowsocks/user-config.json \
    && tar -zxvf /root/kcptun.tar.gz && cp server_linux_amd64 /usr/sbin/kcptunserver \
    && chmod +x /usr/sbin/run.sh && chmod +x /usr/sbin/kcptunserver
-ENTRYPOINT ["/root/run.sh"]
+ENTRYPOINT ["run.sh"]
