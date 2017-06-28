@@ -5,7 +5,7 @@
     "local_address": "127.0.0.1",
     "local_port": 1080,
 
-    "password": "m",
+    "password": "pass1234",
     "method": "aes-128-ctr",
     "protocol": "auth_aes128_md5",
     "protocol_param": "",
@@ -14,8 +14,8 @@
     "speed_limit_per_con": 0,
     "speed_limit_per_user": 0,
 
-    "additional_ports" : {}, // only works under multi-user mode
-    "additional_ports_only" : false, // only works under multi-user mode
+    "additional_ports" : {}, 
+    "additional_ports_only" : false, 
     "timeout": 120,
     "udp_timeout": 60,
     "dns_ipv6": false,
