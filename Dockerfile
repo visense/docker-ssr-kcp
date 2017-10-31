@@ -6,7 +6,7 @@ ENV kcpport 1000
 ENV obfs  tls1.2_ticket_auth
 ENV method  aes-128-ctr
 ENV protocol auth_aes128_md5
-ADD https://github.com/shadowsocksr/shadowsocksr/archive/manyuser.zip /root/manyuser.zip
+ADD https://github.com/shadowsocksr-rm/shadowsocksr/archive/manyuser.zip /root/manyuser.zip
 ADD https://github.com/xtaci/kcptun/releases/download/v20170525/kcptun-linux-amd64-20170525.tar.gz /root/kcptun.tar.gz
 ADD user-config.json /root/user-config.json
 ADD run.sh /usr/sbin/run.sh
