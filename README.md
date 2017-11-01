@@ -1,3 +1,5 @@
+docker run --name  ssr-kcp  -itd --net=host -e pass=xiang w796933/ssr-kcp-xiang
+
 # docker-ssr-kcp
 Docker ShadowsocksR with kcptun server
 ## default variable：
