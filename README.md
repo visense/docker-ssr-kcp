@@ -1,5 +1,7 @@
 docker run --name  ssr-kcp  -itd --net=host -e pass=xiang w796933/ssr-kcp-xiang
 
+
+kcptun 参数填  加密方式 AES  模式 FAST2 启用压缩，不禁用。 密码填空
 # docker-ssr-kcp
 Docker ShadowsocksR with kcptun server
 ## default variable：
