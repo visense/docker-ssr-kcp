@@ -6,7 +6,7 @@ ENV kcpport 1000
 ENV obfs  tls1.2_ticket_auth
 ENV method  aes-128-ctr
 ENV protocol auth_aes128_md5
-ADD https://github.com/w796933/shadowsocksr-1/archive/manyuser.zip /root/manyuser.zip
+ADD https://github.com/w796933/shadowsocksr/archive/manyuser.zip /root/manyuser.zip
 ADD https://github.com/xtaci/kcptun/releases/download/v20180316/kcptun-linux-amd64-20180316.tar.gz /root/kcptun.tar.gz
 ADD https://github.com/wangyu-/udp2raw-tunnel/releases/download/20180225.0/udp2raw_binaries.tar.gz /root/udp2raw.tar.gz
 
