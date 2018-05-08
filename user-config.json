@@ -5,7 +5,7 @@
     "local_address": "127.0.0.1",
     "local_port": 1080,
 
-    "password": "xiang",
+    "password": "pass1234",
     "method": "aes-128-ctr",
     "protocol": "auth_aes128_md5",
     "protocol_param": "",
