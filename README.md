@@ -11,3 +11,7 @@ password : endokai <br>
 method : aes-128-ctr <br>
 protocol : auth_aes128_md5 <br>
 obfs : tls1.2_ticket_auth_compatible <br>
+
+
+
+docker run -itd --name=kcp --restart=always -p 8855:8855 --privileged  w796933/ssr-kcp-raw
